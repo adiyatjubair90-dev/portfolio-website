@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Adiyat Jubair | Portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Adiyat Jubair - Software Engineering Student Portfolio. Showcasing projects in full-stack web development, embedded programming, and AI development.">
@@ -12,7 +13,7 @@
     <meta property="og:title" content="Adiyat Jubair - Software Engineering Portfolio">
     <meta property="og:description" content="Software Engineering Student at Ontario Tech University">
     
-    <title>Adiyat Jubair | Portfolio</title>
+    <title>Adiyat Jubair | Software Engineering Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -364,10 +365,7 @@
             <div class="contact-content">
                 <div class="contact-form-wrapper">
                     <form id="contactForm" class="contact-form" action="https://formspree.io/f/mnjabloy" method="POST">
-                        <!-- Formspree settings -->
                         <input type="hidden" name="_subject" value="Portfolio Contact Form Submission">
-                        <!-- Honeypot field for bots (users should not fill this in) -->
-                        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
                         <div class="form-group">
                             <label for="name">Name *</label>
                             <input type="text" id="name" name="name" placeholder="Adiyat Jubair" required>
@@ -384,9 +382,9 @@
                             <label for="message">Message *</label>
                             <textarea id="message" name="message" rows="5" placeholder="Write Your Message" required maxlength="2000"></textarea>
                         </div>
-                        <!-- hCaptcha widget (configure in Formspree and replace sitekey below) -->
+                        <!-- hCaptcha widget -->
                         <div class="form-group captcha-group">
-                            <div class="h-captcha" data-sitekey="YOUR_HCAPTCHA_SITE_KEY"></div>
+                            <div class="h-captcha" data-sitekey="6ca88d86-4dce-425c-b0b2-a4ae2656cf1c"></div>
                         </div>
                         <button type="submit" class="btn btn-primary">Send Message</button>
                         <div id="formMessage" class="form-message"></div>
@@ -447,10 +445,9 @@
     </button>
 </footer>
 
-    <!-- hCaptcha script (required for CAPTCHA widget) -->
+    <!-- hCaptcha script (required for widget) -->
     <script src="https://hcaptcha.com/1/api.js" async defer></script>
     <script src="js/script.js"></script>
 </body>
 </html>
-
 
