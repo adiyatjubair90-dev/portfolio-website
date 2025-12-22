@@ -203,6 +203,14 @@ if (contactForm) {
                 if (response.ok) {
                     showFormMessage('Thank you! Your message has been sent successfully.', 'success');
                     contactForm.reset();
+                    // Reset hCaptcha widget after successful submission (if present)
+                    if (window.hcaptcha && typeof window.hcaptcha.reset === 'function') {
+                        try {
+                            window.hcaptcha.reset();
+                        } catch (captchaError) {
+                            console.warn('hCaptcha reset failed:', captchaError);
+                        }
+                    }
                 } else {
                     if (result.errors) {
                         showFormMessage('Error: ' + result.errors.map(e => e.message).join(', '), 'error');
