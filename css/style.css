@@ -301,7 +301,8 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     padding: 120px 20px 80px;
     overflow: hidden;
-    background: var(--primary-color);
+    /* Let the background image show through (no solid navy) */
+    background: transparent;
 }
 
 .hero-background {
@@ -326,9 +327,8 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     right: 0;
     bottom: 0;
-    /* Dark overlay to keep text readable */
-    background: radial-gradient(circle at 30% 50%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
-                linear-gradient(to bottom, rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85));
+    /* Softer dark overlay so the hero image is clearly visible */
+    background: linear-gradient(to bottom, rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.55));
     z-index: 0;
 }
 
