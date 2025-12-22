@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Adiyat Jubair - Software Engineering Student Portfolio. Showcasing projects in full-stack web development, embedded programming, and AI development.">
+    <meta name="keywords" content="Software Engineering, Web Development, PHP, JavaScript, Portfolio">
+    <meta name="author" content="Adiyat Jubair">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Adiyat Jubair - Software Engineering Portfolio">
+    <meta property="og:description" content="Software Engineering Student at Ontario Tech University">
+    
+    <title>Adiyat Jubair | Software Engineering Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#hero">Adiyat Jubair</a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+</header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-name">Adiyat Jubair</h1>
+            <p class="hero-title">Software Engineering Student</p>
+            <p class="hero-tagline">Aspiring Software Engineer and AI Developer Looking For Internship Opportunities</p>
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a 2nd year Software Engineering student at <strong>Ontario Tech University</strong>, maintaining a 
+                        <strong>CGPA of 4.2/4.3</strong>, pursuing my degree from September 2024 to April 2028. With a strong passion for <strong>programming</strong> 
+                        and <strong>design</strong>, I'm always open to learn new technical skills and apply them to solve real-world problems!
+                    </p>
+                    <p>
+                        My interests are <strong>AI development</strong>, <strong>embedded programming</strong>, 
+                        and <strong>full-stack web development</strong>. Whether it's developing web applications, 
+                        programming embedded systems, or exploring the frontiers of artificial intelligence, I'm always 
+                        eager to push boundaries and create innovative solutions.
+                    </p>
+                    <p>
+                        I believe that learning is an infinite process. My goal is to contribute 
+                        to meaningful projects that combine technical skills with creative design, while growing as a 
+                        software engineer through hands-on experience and teamwork.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="assets/images/profile.jpg" alt="Adiyat Jubair - Software Engineering Student" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1: Taskly -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/taskly.png" alt="Taskly Task Manager Website Screenshot" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Taskly – Task Manager Website</h3>
+                        <p class="project-description">
+                            A full-stack web application that allows users to log in and manage tasks for schoolwork, 
+                            extracurriculars, and personal errands. Features user authentication, task CRUD operations, 
+                            and a clean, intuitive interface.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Figma</span>
+                            <span class="tech-badge">WAMP</span>
+                            <span class="tech-badge">MySQL</span>
+                            <span class="tech-badge">HTML/CSS</span>
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">PHP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/adiyatjubair90-dev/Taskly-TaskManager-Website" target="_blank" class="btn btn-outline">
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Sumo Robot -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/sumorobot.jpeg" alt="Sumo Robot Design" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sumo Robot Design</h3>
+                        <p class="project-description">
+                            Designed, programmed, and constructed a competitive sumo robot using embedded systems and 
+                            mechanical design principles. The robot features advanced sensor integration and autonomous 
+                            decision-making capabilities.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Arduino</span>
+                            <span class="tech-badge">C/C++</span>
+                            <span class="tech-badge">AutoCAD</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Smart Temperature Fan -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/smartfan.png" alt="Smart Temperature Fan System" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Smart Temperature Fan System</h3>
+                        <p class="project-description">
+                            A virtual fan system that dynamically adjusts fan speed and displays system information based 
+                            on environmental temperature input. Demonstrates real-time sensor data processing and control logic.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Arduino</span>
+                            <span class="tech-badge">C/C++</span>
+                            <span class="tech-badge">TinkerCAD</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/adiyatjubair90-dev/Smart-Temperature-Fan-System" target="_blank" class="btn btn-outline">
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Scissor Lift 3D Model -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/scissorlift.png" alt="Scissor Lift 3D Model" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Scissor Lift 3D Model</h3>
+                        <p class="project-description">
+                            A detailed 3D model of a scissor lift mechanism designed using CAD software. The model demonstrates 
+                            mechanical design principles, assembly techniques, and engineering visualization skills.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">SolidWorks</span>
+                            <span class="tech-badge">3D Modelling</span>
+                            <span class="tech-badge">CAD</span>
+                            <span class="tech-badge">Engineering Drawing</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="assets/scissorlift.pdf" download class="btn btn-outline">
+                                <span>Download Report</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            
+            <div class="skills-layout">
+                <!-- Left: Skills Cards -->
+                <div class="skills-cards-wrapper">
+                    <!-- Languages -->
+                    <div class="skills-category">
+                        <h3 class="skills-category-title">Languages</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">Java</div>
+                            <div class="skill-item">JavaScript</div>
+                            <div class="skill-item">Python</div>
+                            <div class="skill-item">C++</div>
+                            <div class="skill-item">HTML/CSS</div>
+                            <div class="skill-item">PHP</div>
+                            <div class="skill-item">Lua</div>
+                        </div>
+                    </div>
+
+                    <!-- Frameworks & Tools -->
+                    <div class="skills-category">
+                        <h3 class="skills-category-title">Frameworks & Tools</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">Node.js</div>
+                            <div class="skill-item">MySQL</div>
+                            <div class="skill-item">Pygame</div>
+                            <div class="skill-item">Matplotlib</div>
+                            <div class="skill-item">Figma</div>
+                            <div class="skill-item">Microsoft Azure</div>
+                            <div class="skill-item">MATLAB</div>
+                            <div class="skill-item">SolidWorks</div>
+                            <div class="skill-item">AutoCAD</div>
+                            <div class="skill-item">TinkerCAD</div>
+                            <div class="skill-item">VS Code</div>
+                            <div class="skill-item">Arduino</div>
+                            <div class="skill-item">WAMP</div>
+                            <div class="skill-item">Adobe</div>
+                            <div class="skill-item">Microsoft</div>
+                        </div>
+                    </div>
+
+                    <!-- Relevant Coursework -->
+                    <div class="skills-category">
+                        <h3 class="skills-category-title">Relevant Coursework</h3>
+                        <div class="skills-grid focus-areas">
+                            <div class="skill-item focus-item">Discrete Mathematics ELEE2110U</div>
+                            <div class="skill-item focus-item">Electrical Engineering Fundamentals ELEE2200U</div>
+                            <div class="skill-item focus-item">Engineering Design ENGR1025U</div>
+                            <div class="skill-item focus-item">Intro To Programming ENGR1200U</div>
+                            <div class="skill-item focus-item">Linear Algebra MATH1850U</div>
+                            <div class="skill-item focus-item">Object Oriented Programming SOFE2710U</div>
+                            <div class="skill-item focus-item">Statistics &amp; Probability STATS2800U</div>
+                            <div class="skill-item focus-item">Web Programming SOFE2800U</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Hexagon Skills Chart -->
+                <div class="hexagon-chart-wrapper">
+                    <h3 class="skills-category-title">Skill Proficiency</h3>
+                    <div class="hexagon-chart">
+                        <svg viewBox="0 0 400 400" class="hexagon-svg">
+                            <defs>
+                                <linearGradient id="skillGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:rgba(59, 130, 246, 0.2);stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:rgba(59, 130, 246, 0.4);stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            
+                            <!-- Background hexagon grid -->
+                            <g class="hexagon-grid" opacity="0.3">
+                                <polygon points="200,50 300,125 300,225 200,300 100,225 100,125" fill="none" stroke="#cbd5e1" stroke-width="1.5"/>
+                                <polygon points="200,75 275,137.5 275,212.5 200,275 125,212.5 125,137.5" fill="none" stroke="#cbd5e1" stroke-width="1.5"/>
+                                <polygon points="200,100 250,150 250,200 200,250 150,200 150,150" fill="none" stroke="#cbd5e1" stroke-width="1.5"/>
+                                <polygon points="200,125 225,162.5 225,187.5 200,225 175,187.5 175,162.5" fill="none" stroke="#cbd5e1" stroke-width="1.5"/>
+                            </g>
+                            
+                            <!-- Skill area polygon scaled by percentages -->
+                            <!-- Hexagon corners: (200,50), (300,125), (300,225), (200,300), (100,225), (100,125) -->
+                            <!-- Center: (200,175) | Max distance to corner: 125 -->
+                            <!-- Percentages: 85%, 90%, 75%, 80%, 75%, 70% -->
+                            <!-- Scaled positions: Each point is center + (corner - center) * percentage -->
+                            <g class="skill-area">
+                                <polygon points="200,68.75 290,130 275,212.5 200,275 125,212.5 130,140" 
+                                    fill="url(#skillGradient)" 
+                                    stroke="#3b82f6" 
+                                    stroke-width="2.5" 
+                                    opacity="0.6"/>
+                            </g>
+                            
+                            <!-- Connecting lines from center to hexagon corners -->
+                            <g class="skill-lines" stroke="#3b82f6" stroke-width="1.5" stroke-opacity="0.2">
+                                <line x1="200" y1="175" x2="200" y2="50"/>
+                                <line x1="200" y1="175" x2="300" y2="125"/>
+                                <line x1="200" y1="175" x2="300" y2="225"/>
+                                <line x1="200" y1="175" x2="200" y2="300"/>
+                                <line x1="200" y1="175" x2="100" y2="225"/>
+                                <line x1="200" y1="175" x2="100" y2="125"/>
+                            </g>
+                            
+                            <!-- Skill labels on hexagon corners (circles removed) -->
+                            <g class="skill-points">
+                                <!-- Programming Fundamentals - Top (85%) -->
+                                <text x="200" y="35" text-anchor="middle" class="skill-label">Fundamentals</text>
+                                <text x="200" y="25" text-anchor="middle" class="skill-label">Programming</text>
+                                <text x="200" y="15" text-anchor="middle" class="skill-percentage">85%</text>
+                                
+                                <!-- Web Development - Top Right (90%) -->
+                                <text x="320" y="130" class="skill-label">Development</text>
+                                <text x="320" y="120" class="skill-label">Website</text>
+                                <text x="320" y="110" class="skill-percentage">90%</text>
+                                
+                                <!-- Algorithms & Mathematics - Bottom Right (85%) -->
+                                <text x="320" y="230" class="skill-label">Algorithms</text>
+                                <text x="320" y="240" class="skill-label">&amp; Mathematics</text>
+                                <text x="320" y="250" class="skill-percentage">85%</text>
+                                
+                                <!-- Software Design & Modelling - Bottom (80%) -->
+                                <text x="200" y="315" text-anchor="middle" class="skill-label">Software Design</text>
+                                <text x="200" y="325" text-anchor="middle" class="skill-label">&amp; Modelling</text>
+                                <text x="200" y="335" text-anchor="middle" class="skill-percentage">80%</text>
+                                
+                                <!-- Embedded Software - Bottom Left (70%) -->
+                                <text x="80" y="230" text-anchor="end" class="skill-label">Embedded</text>
+                                <text x="80" y="240" text-anchor="end" class="skill-label">Software</text>
+                                <text x="80" y="250" text-anchor="end" class="skill-percentage">70%</text>
+                                
+                                <!-- AI Development - Top Left (60%) -->
+                                <text x="80" y="130" text-anchor="end" class="skill-label">Learning</text>
+                                <text x="80" y="120" text-anchor="end" class="skill-label">Machine</text>
+                                <text x="80" y="110" text-anchor="end" class="skill-percentage">60%</text>
+                            </g>
+                            
+                            <!-- Center point -->
+                            <circle cx="200" cy="175" r="5" fill="#3b82f6" opacity="0.5"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="resume-content">
+                <h2 class="section-title">Resume</h2>
+                <p class="resume-description">
+                    Download my resume to learn more about my experience, skills, and projects!
+                </p>
+                <a href="assets/resume.pdf" download class="btn btn-primary btn-large">
+                    <span>Download Resume</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-form-wrapper">
+                    <form id="contactForm" class="contact-form" action="https://formspree.io/f/mnjabloy" method="POST">
+                        <!-- Formspree settings -->
+                        <input type="hidden" name="_subject" value="Portfolio Contact Form Submission">
+                        <!-- Honeypot field for bots (users should not fill this in) -->
+                        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" placeholder="Adiyat Jubair" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" placeholder="example123@gmail.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Write Your Message" required maxlength="2000"></textarea>
+                        </div>
+                        <!-- hCaptcha widget (configure in Formspree and replace sitekey below) -->
+                        <div class="form-group captcha-group">
+                            <div class="h-captcha" data-sitekey="YOUR_HCAPTCHA_SITE_KEY"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <h3>Connect With Me!</h3>
+                        <div class="social-links">
+                            <a href="mailto:adiyatjubair90@gmail.com" class="social-link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                                Email
+                            </a>
+                            <a href="https://github.com/adiyatjubair90-dev" target="_blank" class="social-link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                                GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/in/adiyatjubair/" target="_blank" class="social-link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                                LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="https://github.com/adiyatjubair90-dev" target="_blank" class="footer-social-link" aria-label="GitHub">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/adiyatjubair/" target="_blank" class="footer-social-link" aria-label="LinkedIn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                </a>
+            </div>
+            <p class="footer-copyright">&copy; 2024 Adiyat Jubair. All rights reserved.</p>
+        </div>
+    </div>
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+</footer>
+
+    <!-- hCaptcha script (required for CAPTCHA widget) -->
+    <script src="https://hcaptcha.com/1/api.js" async defer></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
