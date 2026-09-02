@@ -395,7 +395,6 @@ h1, h2, h3, h4, h5, h6 {
 .about,
 .projects,
 .skills,
-.resume,
 .contact {
     padding: var(--section-padding);
 }
@@ -410,19 +409,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .skills {
     background: var(--bg-light);
-}
-
-.resume {
-    background: var(--primary-color);
-    color: white;
-}
-
-.resume .section-title {
-    color: white;
-}
-
-.resume .section-title::after {
-    background: var(--accent-color);
 }
 
 .contact {
@@ -675,39 +661,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .skill-area polygon {
     transition: opacity 0.3s ease;
-}
-
-/* ============================================
-   Resume Section
-   ============================================ */
-.resume-content {
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.resume-description {
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
-    color: rgba(255, 255, 255, 0.9);
-    line-height: 1.8;
-}
-
-.resume .btn-primary {
-    background: white;
-    color: var(--primary-color);
-    box-shadow: 0 4px 14px 0 rgba(255, 255, 255, 0.2);
-}
-
-.resume .btn-primary:hover {
-    background: var(--accent-color);
-    color: white;
-    box-shadow: 0 8px 20px 0 rgba(59, 130, 246, 0.4);
-    transform: translateY(-3px);
-}
-
-.resume .btn-primary:active {
-    transform: translateY(-1px);
 }
 
 /* ============================================
